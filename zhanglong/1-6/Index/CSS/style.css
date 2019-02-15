@@ -1,0 +1,70 @@
+.navbar a {
+    text-decoration: none;
+}
+
+.backgroundimg {
+    background-image: "image\backgroundimg.jpg"no-repeat center fixed;
+    background-size: contain;
+    margin-top: 100px;
+}
+
+.contact_us {
+    margin: auto;
+    background-color: white;
+    height: 600px;
+    width: auto;
+    text-align: center;
+    position: relative;
+}
+
+.info_center{
+    text-align: center;
+    position: relative;
+}
+
+/* .img_distance {
+    margin: auto;
+    padding: 100px;
+} */
+
+.end_info {
+    margin: auto;
+    height: 350px;
+    width: auto;
+    background-color: #343A40;
+}
+
+.end {
+    color: white;
+    margin: 20px;
+    float: left;
+    padding: 20px;
+}
+
+.fiexbox {
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: bule;
+    float: right;
+    font-weight: bold;
+}
+
+/* span{
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: blue;
+} */
+
+.hidden_nav{
+    display: none;
+}
+
+.display_nav{
+    display: block;
+}
