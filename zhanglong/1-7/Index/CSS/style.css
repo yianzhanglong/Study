@@ -1,0 +1,97 @@
+.navbar a {
+    text-decoration: none;
+}
+
+.backtotop {
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: bule;
+    float: right;
+    font-weight: bold;
+}
+
+.hidden_nav {
+    display: none;
+}
+
+.display_nav {
+    display: block;
+}
+
+.backgroundimg {
+    background-image: "image\backgroundimg.jpg"no-repeat center fixed;
+    background-size: contain;
+    margin-top: 100px;
+}
+
+.product_advantage {
+    margin: auto;
+    background-color: white;
+    height: 400px;
+    width: auto;
+    text-align: center;
+    position: relative;
+}
+
+.img_color_convert hover {
+    mix-blend-mode: background-color: #ff0000;
+}
+
+.bottom_bgcolor {
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+.end_info {
+    margin: auto;
+    height: 350px;
+    width: auto;
+    background-color: #343A40;
+}
+
+.end {
+    color: white;
+    margin: 20px;
+    float: left;
+    padding: 20px;
+}
+
+.flag1 {
+    margin: 50px;
+}
+
+.second_div {
+    margin: 0 auto;
+    height: 395px;
+    width: 1200px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.third_div {
+    margin: 0 auto;
+    height: 395px;
+    width: 1200px;
+    background-color: #cd2735;
+    margin-top: 30px;
+}
+
+.fourth_div {
+    margin: 0 auto;
+    height: 395px;
+    width: 1200px;
+    background-color: #cf2735;
+    margin-top: 30px;
+}
+
+.fifth_div {
+    margin: 0 auto;
+    height: 395px;
+    width: 1200px;
+    background-color: white;
+    margin-top: 30px;
+}
