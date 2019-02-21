@@ -28,6 +28,7 @@
     margin-top: 100px;
 }
 
+
 .product_advantage {
     margin: auto;
     background-color: white;
@@ -35,10 +36,6 @@
     width: auto;
     text-align: center;
     position: relative;
-}
-
-.img_color_convert hover {
-    mix-blend-mode: background-color: #ff0000;
 }
 
 .bottom_bgcolor {

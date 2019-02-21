@@ -2,7 +2,6 @@
     <head>
         <meta charset="utf-8">
         <title>Web</title>
-        <noscript>Your browser doesn't support javascript or Not enabled</noscript>
         <link rel=shortcut icon href="9542405.s21i.faiusr.com/5/ABUIABACGAAgu4mFygUox8r8tQYwEDgQ.ico">
         <link rel="stylesheet" type="text/css" href="CSS\style.css">
         <link rel="stylesheet" type="text/css" href="CSS\bootstrap.css">
@@ -15,14 +14,16 @@
         <script type="text/javascript" src="JS\bootstrap.bundle.js"></script>
         <script type="text/javascript" src="JS\bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="JS\bootstrap.min.js"></script>
-        <header class="bs-docs-nav navbar navbar-static-top" id="top"></header>
     </head>
 
     <body oncontextmenu="return false" onselectstart="return false" oncopy="return false">
 
+        <noscript>Your browser doesn't support javascript or Not enabled</noscript>
+        <header class="bs-docs-nav navbar navbar-static-top" id="top"></header>
+
         <div style="height: 80px;width: 100%; position: fixed;">
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <img src="image\logo.png" width="239px" height="86px" style="float: right; margin-left: 100px;">
+                <img src="image\logo.png" width="239px" height="86px" style="float: right; margin-left: 100px;" alt="图片未加载">
                 <ul class="navbar-nav" style="float: right;>
             <li class=" nav-item active">
                     <a title="首页" href="#" class="nav-link">首页</a>
@@ -44,42 +45,42 @@
         </div>
 
         <div class="backgroundimg">
-            <img src="image\first_div_bgimg.jpg">
+            <img src="image\first_div_bgimg.jpg" width="1400px" height="442px" alt="图片未加载">
         </div>
 
         <div class="product_advantage"><br />
             <h1><b>PRODUCT ADVANTAGE</b></h1>
             <p>———— 产品优势 ————</p>
             <br />
-            <img class="img_color_convert" src="image\zhonglei.png" ; width="300px" height="190px">
-            <img class="img_color_convert" src="image\renzheng.png" ; width="300px" height="190px">
-            <img class="img_color_convert" src="image\youzhi.png" ; width="300px" height="190px">
-            <img class="img_color_convert" src="image\pinzhi.png" ; width="300px" height="190px">
+            <img id="soure_img1" onmouseover="changeimg(this)" src="image\zhonglei.png" ; width="300px" height="190px" alt="图片未加载">
+            <img id="soure_img2" onmouseover="changeimg(this)" src="image\renzheng.png" ; width="300px" height="190px" alt="图片未加载">
+            <img id="soure_img3" onmouseover="changeimg(this)" src="image\youzhi.png" ; width="300px" height="190px" alt="图片未加载">
+            <img id="soure_img4" onmuoseover="changeimg(this)" src="image\pinzhi.png" ; width="300px" height="190px" alt="图片未加载">
         </div>
 
         <div class="bottom_bgcolor">
 
             <div class="second_div">
-                <img src="image\9.jpg" width="820px" height="395px" ;>
-                <img class="flag1" src="image\10.png" width="100px" ;height="64px" ;>
+                <img src="image\9.jpg" width="820px" height="395px" ; alt="图片未加载">
+                <img class="flag1" src="image\10.png" width="100px" ;height="64px" alt="图片未加载";>
                 <p style="float:right">法比亚球阀</p>
                 <p>Ball Valve</p>
             </div>
 
             <div class="third_div">
-                <img src="image\11.jpg" width="820px" height="396px"; style="margin-right:0px">
-                <img src="image\3.png" width="100px" height="60px">
+                <img src="image\11.jpg" width="820px" height="396px" ; style="margin-right:0px" alt="图片未加载">
+                <img src="image\3.png" width="100px" height="60px" alt="图片未加载">
             </div>
 
             <div class="fourth_div">
-                <img src="image\2.jpg" width="820px" height="396px">
-                <img src="image\1.png" width="100px" height="60px">
+                <img src="image\2.jpg" width="820px" height="396px" alt="图片未加载">
+                <img src="image\1.png" width="100px" height="60px" alt="图片未加载">
             </div>
-             
+
             <div class="fifth_div">
-            <img src="image\12.jpg" width="820px" height="396px">
-            <img src="image\4.png" width="100px" height="60px">
-        </div>
+                <img src="image\12.jpg" width="820px" height="396px" alt="图片未加载">
+                <img src="image\4.png" width="100px" height="60px" alt="图片未加载">
+            </div>
 
         </div>
 
@@ -114,11 +115,11 @@
                 <p>地址：江苏省苏州市工业园区阳澄路202号</p>
                 <p>©2009-2016 www.fabia-china.com ALL Rights Reserved. 法比亚阀门工业（苏州）有限公司 版权所有</p>
                 <p>苏ICP备16027712号</p>
-                <img style="float: left; margin-left: 2px;" src="image\police.png" width="20px" height="20px">
+                <img style="float: left; margin-left: 2px;" src="image\police.png" width="20px" height="20px" alt="图片未加载">
                 <p><a style="color: white; text-decoration: none;" href="http://www.beian.gov.cn/portal/registerSystemInfo?COLLCC=414646703&recordcode=32059002001240">公网安备32059002001240号</a></p>
             </div>
             <img style="float: right; text-align: center;margin-right: 300px;" src="image\QRcode.png" width="185px"
-                height="205px">
+                height="205px" alt="图片未加载">
             <hr style="text-align: center;margin-top: 280px;">
 
         </div>
@@ -131,6 +132,34 @@
                     scrollup.className = "back-to-top display_nav";
                 } else {
                     scrollup.className = "back-to-top hidden_nav";
+                }
+            }
+        </script>
+        <script type="text/javascript">
+            function changeimg(x) {
+                img1 = document.getElementById("soure_img1");
+                img2 = document.getElementById("soure_img2");
+                img3 = document.getElementById("soure_img3");
+                img4 = document.getElementById("soure_img4");
+                if (img1.src.match("image\zhonglei.png")) {
+                    img1.src = "8449912.s21i.faiusr.com/4/ABUIABAEGAAgnteqtgUotr212gMwrAI4vgE.png";
+                } else {
+                    img1.src = "image\zhonglei.png";
+                }
+                if (img2.src.match("image\renzheng.png")) {
+                    img2.src = "8449912.s21i.faiusr.com/4/ABUIABAEGAAguNiqtgUo_qPOrwUwrAI4vgE.png";
+                } else {
+                    img2.src = "image\renzheng.png";
+                }
+                if (img3.src.match("image\youzhi.png")) {
+                    img3.src = "8449912.s21i.faiusr.com/4/ABUIABAEGAAgsdeqtgUoyObdVzCsAji_AQ.png";
+                } else {
+                    img3.src = "image\youzhi.png";
+                }
+                if (img4.src.match("image\pinzhi.png")) {
+                    img4.src = "8449912.s21i.faiusr.com/4/ABUIABAEGAAgudeqtgUowqqmwwQwrAI4vgE.png";
+                } else {
+                    img4.src = "image\pinzhi.png";
                 }
             }
         </script>
